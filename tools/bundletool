@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "java" -jar "$BITRISE_STEP_SOURCE_DIR/tools/bundletool-all-1.4.0.jar" "$@"
